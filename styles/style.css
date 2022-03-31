@@ -7,40 +7,66 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-  height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  align-items: center;
   /* выше установили ограничения для секции */
 }
 
 .logo {
   width: 228px;
   height: 32px;
+  z-index: 1;
 }
 
-.logo_place_header {
+ .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
 }
 
 .title {
-  display: flex;
-  align-items: center;
+  margin: 64px;
+  width: 730px;
+  z-index: 1;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 700;
+}
+
+.subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 400px;
+  z-index: 1;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .main-illustration {
   width: 765px;
   height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .square-pic {
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: -2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
