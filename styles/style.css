@@ -273,6 +273,7 @@
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column_heading {
@@ -286,6 +287,7 @@
   margin-bottom: 16px;
   line-height: 30px;
   font-size: 18px;
+  font-weight: normal;
 }
 
 li.column-link {
