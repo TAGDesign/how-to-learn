@@ -321,6 +321,7 @@ li.table__cell {
   min-height: 350px;
   display: flex;
   padding: 60px 0 40px;
+  box-sizing: border-box;
   margin: 0;
   border: 0;
 }
@@ -329,7 +330,7 @@ li.table__cell {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 0;
+  margin: 0 auto;
   padding: 0;
   border: 0;
 }
@@ -341,10 +342,10 @@ li.table__cell {
 }
 
 .footer__column_content_copyright {
-  flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-basis: 711px;
 }
 
 .footer__author {
@@ -362,7 +363,6 @@ li.table__cell {
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
-  width:fit-content;
   padding: 0;
   border: 0;
 }
@@ -372,7 +372,6 @@ li.table__cell {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  width:fit-content;
   padding: 0;
   border: 0;
 }
