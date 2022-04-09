@@ -230,7 +230,7 @@ li.table__cell {
 }
 
 .table__text {
-  margin-top: 20px;
+  margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -301,11 +301,10 @@ li.table__cell {
 
 .kaufman__triangle {
   background-image: url('../images/kaufman-triangle.svg');
-  background-position: -210px 0;
   background-size: contain;
   overflow: hidden;
   position: absolute;
-  right: -420px;
+  right: -210px;
   top: 0;
   width: 877px;
   height: 877px;
@@ -372,15 +371,12 @@ li.table__cell {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  list-style-type: none;
   padding: 0;
   border: 0;
 }
 
-li.footer__column-link {
-  list-style-type: none;
-}
-
-.footer__column-link a {
+.footer__column-link {
   text-decoration: none;
   color: #fff;
 }
