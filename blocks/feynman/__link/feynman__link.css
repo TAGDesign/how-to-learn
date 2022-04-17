@@ -10,4 +10,10 @@
   margin: 0;
   padding: 0;
   border: 0;
+  transition: opacity 0.8s ease;
 }
+
+.feynman__link:hover {
+  opacity: 40%;
+}
+
