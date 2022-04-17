@@ -1,0 +1,8 @@
+.footer__social-icon {
+  margin: 0 8px 0 0; /*добавил для большего соответствия с макетом*/
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  padding: 0;
+  border: 0;
+}

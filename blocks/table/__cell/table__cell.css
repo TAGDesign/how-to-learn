@@ -1,0 +1,12 @@
+.table__cell {
+  width: 250px;
+  padding: 60px 0 0 0;
+  vertical-align: top;
+  color: #000;
+  margin: 0;
+  border: 0;
+}
+
+li.table__cell {
+  list-style-type: none;
+}
