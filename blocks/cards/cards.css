@@ -1,12 +1,10 @@
 .cards {
   margin: 0 auto;
   width: 920px;
-  display: flex;
-  box-sizing: border-box;
-  flex-wrap: wrap;
-  align-items: stretch;
   border-spacing: 0;
   padding: 0;
   border: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  gap: 0 100px;
 }
-
