@@ -31,6 +31,8 @@
 @import url(../blocks/techniques/techniques.css); /* block techniques */
 
 @import url(../blocks/video/video.css); /* block video */
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 
 @import url(../blocks/oakley/oakley.css); /* block oakley */
 
