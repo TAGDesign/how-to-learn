@@ -2,7 +2,7 @@
 Одностраничный сайт из 11 блоков, раскрывающий тему подхода к обучению
 
 ## Используемые технологии
-1. Сайт разрабатывался по брифам: [Бриф1]{https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf} и [Бриф2]{https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf}.
+1. Сайт разрабатывался по брифам: [Бриф1](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf) и [Бриф2](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf).
 2. Файловая структура организована с помощью методологии БЭМ (Nested).
 3. HTML и CSS синтаксис соблюден согласно брифам. 
 4. Анимация вращения фигур выполнена с помощью CSS.
