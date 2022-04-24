@@ -1,0 +1,14 @@
+.subscription__button {
+  height: 40px;
+  border: 0;
+  width: 32%;
+  cursor: pointer;
+  transition: opacity 0.8s ease;
+  background-color: transparent;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+}
+
+.subscription__button:hover {
+  opacity: 40%;
+}
